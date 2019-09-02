@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/cvcurrent.pdg">Formal cv pdf</a></p>
+<p style="text-decoration:underline;"><a href="/files/cvcurrent.pdf">Formal cv pdf</a></p>
 
 
 Education
