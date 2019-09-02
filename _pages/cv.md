@@ -8,7 +8,10 @@ redirect_from:
 ---
 
 {% include base_path %}
+
 <p style="text-decoration:underline;"><a href="/cvcurrent.pdg">Formal cv pdf</a></p>
+
+
 Education
 ======
 * B.A. in Mathematics with a minor in Computer Science, Oberlin College, 1996
