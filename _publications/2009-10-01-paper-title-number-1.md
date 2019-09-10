@@ -15,4 +15,4 @@ Abstract:Grieving while teaching and researching in mathematics and statistics i
 
 [Download paper here](https://scholarship.claremont.edu/jhm/vol8/iss2/19)
 
-Recommended citation: Roth, K. A. "The Grieving Mathematician and Mother," <i>Journal of Humanistic Mathematics<i>, Volume 8 Issue 2 (July 2018), pages 172-178. DOI: 10.5642/jhummath.201802.19 . Available at: https://scholarship.claremont.edu/jhm/vol8/iss2/19.
+Recommended citation: Roth, K. A. "The Grieving Mathematician and Mother," <i>Journal of Humanistic Mathematics</i>, Volume 8 Issue 2 (July 2018), pages 172-178. DOI: 10.5642/jhummath.201802.19 . Available at: https://scholarship.claremont.edu/jhm/vol8/iss2/19.
