@@ -3,7 +3,7 @@ title: "Bacterial Community Dynamics in Dichloromethane-Contaminated Groundwater
 collection: publications
 permalink: /publication/2017-Frontiers-in-Microbiology.md
 excerpt: 'Joint work with Gina Lamendella and many others'
-date: 2017-10-01
+date: 2017-11-01
 venue: 'Frontiers in Microbiology'
 paperurl: 'https://www.ncbi.nlm.nih.gov/pubmed/29213257'
 citation: '"Bacterial Community Dynamics in Dichloromethane-Contaminated Groundwater Undergoing Natural Attenuation.",  Wright Justin, Kirchner Veronica, Bernard William, Ulrich Nikea, McLimans Christopher, Campa Maria F., Hazen Terry, Macbeth Tamzen, Marabello David, McDermott Jacob, Mackelprang Rachel, Roth Kimberly, Lamendella Regina. <i>Frontiers in Microbiology</i>, Volume 8, 2017. '
