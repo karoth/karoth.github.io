@@ -2,7 +2,7 @@
 title: "A Mathematician Knits an Afghan."
 collection: talks
 type: "Talk"
-permalink: /talks/2019-MOVES.md
+permalink: /talks/2019-MOVES
 venue: "Mathematics of Various Entertaining Subjects(MOVES)"
 date: 2019-08-05
 location: " New York City, NY."
