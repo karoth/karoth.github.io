@@ -1,7 +1,7 @@
 ---
 title: "Bacterial Community Dynamics in Dichloromethane-Contaminated Groundwater Undergoing Natural Attenuation."
 collection: publications
-permalink: /publication/2017-Frontiers-in-Microbiology.md
+permalink: /publication/2017-Frontiers-in-Microbiology
 excerpt: 'Joint work with Gina Lamendella and many others'
 date: 2017-11-01
 venue: 'Frontiers in Microbiology'
