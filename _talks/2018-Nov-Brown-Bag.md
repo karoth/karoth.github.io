@@ -2,7 +2,7 @@
 title: "Classroom Response Systems and Peer Instruction: Two Literature Reviews and a Demo"
 collection: talks
 type: "Talk"
-permalink: /talks/2018-Nov-Brown-Bag.md
+permalink: /talks/2018-Nov-Brown-Bag
 venue: "Brown Bag SoTL Talk Series, Juniata College"
 date: 2018-11-01
 location: "Huntingdon, PA"
