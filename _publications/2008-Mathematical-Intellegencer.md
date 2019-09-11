@@ -1,7 +1,7 @@
 ---
 title: "Julia Sets that are Full of Holes"
 collection: publications
-permalink: /publication/2008-Mathematical-Intellegencer.md
+permalink: /publication/2008-Mathematical-Intellegencer
 excerpt: ' A  Julia set is a type of fractal.  We will explore the idea of a Julia set which is full of holes, or porous.  The idea of porosity will lead to ways to understand the complexity of the sets in terms of whether they take up space, and in terms of dimension.'
 date: 2008-09-01
 venue: 'Mathematical Intellegencer'
