@@ -1,5 +1,4 @@
 --
-
 title: "Julia Sets that are Full of Holes"
 collection: publications
 permalink: /publication/2008-Mathematical-Intellegencer.md
@@ -7,7 +6,6 @@ excerpt: ' A  Julia set is a type of fractal.  We will explore the idea of a Jul
 date: 2008-09-01
 venue: 'Mathematical Intellegencer'
 paperurl: 'http://jcsites.juniata.edu/faculty/roth/fullofholes.pdf'
-
 
 ---
 
