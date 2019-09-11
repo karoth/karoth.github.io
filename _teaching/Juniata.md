@@ -2,7 +2,7 @@
 title: "Courses Taught at Juniata"
 collection: teaching
 type: "Undergraduate courses"
-permalink: /teaching/Juniata.md
+permalink: /teaching/Juniata
 venue: "Juniata College"
 date: 2019-01-01
 location: "Huntingdon ,Pa"
