@@ -1,8 +1,8 @@
- ---
+---
 title: "Reviewing Prerequisite Material for a Course: How and When Should It Be Done?"
 collection: talks
 type: "Talk"
-permalink: /talks/2017-Jan-Brown-Bag.md
+permalink: /talks/2017-Jan-Brown-Bag
 venue: "Brown Bag SoTL Talk Series, Juniata College"
 date: 2017-01-25
 location: "Huntingdon, PA"
