@@ -1,4 +1,5 @@
 --
+
 title: "Julia Sets that are Full of Holes"
 collection: publications
 permalink: /publication/2008-Mathematical-Intellegencer.md
