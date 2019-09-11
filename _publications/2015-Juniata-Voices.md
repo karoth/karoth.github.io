@@ -1,7 +1,7 @@
 ---
 title: "The Genomics Leadership Initiative at Juniata College."
 collection: publications
-permalink: /publication/2015-Juniata-Voices.md
+permalink: /publication/2015-Juniata-Voices
 excerpt: 'Story of the Genomics Leadership Initiative at Juniata.'
 date: 2015-08-01
 venue: 'Juniata Voices'
