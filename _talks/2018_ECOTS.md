@@ -1,8 +1,8 @@
 ---
-title: "`Introduction to Data Science with No Prerequisites"
+title: "Introduction to Data Science with No Prerequisites"
 collection: talks
 type: "Electronic Poster"
-permalink: /talks/2018_ECOTS.md
+permalink: /talks/2018_ECOTS
 venue: "Electronic Conference on Teaching Statistics (ECOTS)"
 date: 2018-05-01
 location: " New York City, NY."
