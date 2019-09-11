@@ -1,7 +1,7 @@
 ---
 title: "Teaching outside my comfort zone"
 collection: publications
-permalink: /publication/2005-Cardinal-Perspectives.md
+permalink: /publication/2005-Cardinal-Perspectives
 excerpt: 'An essay on teaching broad topic liberals arts classes.'
 date: 2005-05-01
 venue: 'Cardinal Perspectives'
