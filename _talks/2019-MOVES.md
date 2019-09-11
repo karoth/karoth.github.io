@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2019-MOVES.md
 venue: "Mathematics of Various Entertaining Subjects(MOVES)"
-date: 2019-09-05
+date: 2019-08-05
 location: " New York City, NY."
 ---
 
