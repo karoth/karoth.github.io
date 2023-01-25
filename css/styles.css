@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
+
+/* Site design by Erika Lee, erika.biga.lee@gmail.com */
+
+/*************************************
+ STRUCTURE
+ 1rem = 16px
+ *************************************/
+
+html,
+body {
+  font-size: 16px;
+}
+/* holds the content */
+.container {
+  padding: 1.5rem 1.5rem 6rem;
+  margin-left: 332px;
+  max-width: 750px;
+}
+nav {
+  width: 300px;
+  height: 100vh;
+  padding: 1rem 2rem 2rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+}
+.all-over-bkg {
+  display: none;
+}
+
+@media (max-width: 830px) {
+  nav {
+    display: none;
+    background-color: transparent;
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.4);
+    padding-top: 2rem;
+  }
+  .container {
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+  .menu {
+    display: block !important;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+}
+
+/*************************************
+ GENERAL TYPOGRAPHY, LINKS & IMAGES
+ *************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Futura", sans-serif;
+  font-weight: 600;
+}
+p,
+td,
+li,
+figcaption,
+small {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+
+.container a:link,
+.container a:visited,
+nav a:link,
+nav a:visited {
+  color: darkcyan;
+  font-weight: 500;
+}
+.container a:active,
+.container a:hover,
+nav a:active,
+nav a:hover {
+  color: darkseagreen;
+  font-weight: 500;
+}
+
+img {
+  display: block;
+}
+figure {
+  margin: 0;
+  padding: 1rem 0;
+}
+figcaption {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+
+button {
+  background-color: #ab98cc;
+  color: black;
+  border-radius: 2px;
+  border: none;
+  padding: 0.2rem 0.5rem;
+}
+button:hover {
+  background-color: #473c86;
+  color: white;
+  cursor: pointer;
+}
+/*************************************
+ NAVIGATION 
+ Based on the effect from https://picular.co/bluemoon
+ *************************************/
+
+nav ul,
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style-type: none;
+  text-align: right;
+}
+nav ul li {
+  padding: 6px 0;
+}
+ul.nav li a {
+  --fill-color: #1e1c1c;
+  position: relative;
+  display: block;
+  padding: 4px 0;
+  font: 600 2rem "Futura", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px var(--fill-color);
+  background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: 0.4s linear;
+}
+ul li a:hover {
+  background-size: 100%;
+}
+
+/* MENU ICON */
+.menu {
+  display: none;
+  z-index: 1000;
+}
+
+/* MENU JS TOGGLE */
+.show {
+  display: block;
+  background-color: white;
+}
+.show + .menu {
+  position: fixed;
+}
+.is-visible {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  display: block;
+}
+
+/*************************************
+ FOOTER
+ see also .description setting at top of nav styles
+ see .in-page-footer for the one on the about page
+ *************************************/
+.description h3 {
+  font-size: 80%;
+  margin-bottom: 0;
+}
+.description p {
+  font-size: 12px;
+  width: 80%;
+  margin-top: 0.5rem;
+  line-height: 1.3em;
+}
+nav footer .socials {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+}
+.socials li {
+  font-size: 0.7rem !important;
+  margin: 0 0 0.2rem;
+  padding: 0 0.5rem;
+  white-space: nowrap;
+}
+
+/* In-page Footer */
+.in-page-footer {
+  margin-top: 3rem;
+  border-top: 4px solid #ab98cc;
+  width: 100%;
+}
+.in-page-footer,
+.in-page-footer .description {
+  text-align: left;
+  display: inline-block;
+}
+.in-page-footer .description p {
+  width: 100%;
+}
+.in-page-footer ul.socials {
+  padding: 0 0 0 0;
+  margin-top: 0;
+}
+.in-page-footer ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 0.5rem;
+}
+
+/*************************************
+ PAGES 
+ *************************************/
+/* About */
+.intro {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 2rem 0 2rem;
+}
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  max-width: 50%;
+}
+.intro-image {
+  height: 200px;
+  margin-right: 2rem;
+  margin-left: -3px;
+}
+@media (max-width: 488px) {
+  .intro-text {
+    max-width: 100%;
+  }
+}
+
+/* Mathemalchemy */
+.special {
+  border-top: darkseagreen 1px dotted;
+  margin: 2rem 0 0.8rem;
+  padding-top: 0.8rem;
+}
+.special figure img {
+  width: 100%;
+}
+
+/* Publications */
+.publication p {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+}
+.publication h2 {
+  margin: 2rem 0 0.8rem;
+  padding-top: 0.8rem;
+  font-size: 18px;
+  border-top: darkseagreen 1px dotted;
+}
+.publication a {
+  text-decoration: none;
+}
+.citation {
+  font-size: 0.8rem !important;
+}
+.download {
+  padding-top: 0.6rem;
+}
+.download-text {
+  font-size: 0.8rem;
+  position: relative;
+  top: -3px;
+  left: 0;
+}
+
+/* Teaching */
+.teaching h2 {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: #473c86 1px solid;
+}
+.teaching h3 {
+  font-weight: normal;
+}
+
+/* Talks */
+.talks {
+  margin-top: 2rem;
+}
+.talks p {
+  margin: 0 0 0.5rem;
+}
+.formal-cv {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 1rem;
+  position: relative;
+  top: -4px;
+}
+
+/* CV */
+.cv h2 {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: #473c86 1px solid;
+}
+#education + ul li,
+#work-experience + ul li {
+  padding-bottom: 0.5rem;
+}
+#selected-awards + ul li {
+  padding-bottom: 0.5rem;
+}
+ul.activity li {
+  font-size: 14px;
+}
+/*************************************
+ UTILITIES & ICONS
+ .sr-only hides an element on screen, but not from screen readers
+ Icons from https://fonts.google.com/icons
+ *************************************/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Google Material icons */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.material-symbols-outlined {
+  font-size: 0.8rem;
+}
